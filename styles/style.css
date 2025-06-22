@@ -58,3 +58,34 @@
   font-weight: var(--font-weight-text);
   text-transform: uppercase;
 }
+
+.section {
+  min-inline-size: 320px;
+  padding-top: 100px;
+  /* border: 2px #000 solid; */
+}
+
+.title-section {
+  min-block-size: 52px;
+  background-color: #fff;
+  border: 2px solid #000;
+  font-weight: var(--font-weight-title);
+  font-size: 18px;
+  padding: 4px 10px 6px 10px;
+}
+
+.section__img {
+  max-block-size: 375px;
+  max-inline-size: 375px;
+  position: relative;
+  aspect-ratio: 1 / 1;
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  inline-size: 100%;
+  block-size: 100%;
+  object-position: 96% 0%;
+}
