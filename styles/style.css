@@ -62,7 +62,6 @@
 .section {
   min-inline-size: 320px;
   padding-top: 100px;
-  /* border: 2px #000 solid; */
 }
 
 .title-section {
@@ -79,6 +78,7 @@
   max-inline-size: 375px;
   position: relative;
   aspect-ratio: 1 / 1;
+  border: 2px solid #000;
 }
 
 .img {
@@ -88,4 +88,22 @@
   inline-size: 100%;
   block-size: 100%;
   object-position: 96% 0%;
+}
+
+.article {
+  min-block-size: 375px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  background-color: #fff;
+}
+
+.article__text {
+  padding: 25px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.minds {
+  padding-top: 0;
 }
