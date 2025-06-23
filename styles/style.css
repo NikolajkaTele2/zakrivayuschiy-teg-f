@@ -59,6 +59,12 @@
   text-transform: uppercase;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .section {
   min-inline-size: 320px;
   padding-top: 100px;
