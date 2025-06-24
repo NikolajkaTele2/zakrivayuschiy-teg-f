@@ -205,5 +205,9 @@
   color: var(--black-color);
 }
 
+.modal-floppy {
+  inline-size: 39px;
+  block-size: 39px; 
+}
 
 
