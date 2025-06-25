@@ -3,9 +3,6 @@
     --black-color: #000;
     --grafit-color:#1a1a1a;
     --red-color: #FF0000;
-    --green-color:#00cc14;
-    --green-n-color: #007f0c;
-    --green-oliv-color: #004306;
     --white-color:#fff;
     --silver-color:#e7e7e7;
     --grey-color:#d3d3d3;
@@ -16,5 +13,4 @@
     --background-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
     repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-    --floppy-size: 21px;
 }
