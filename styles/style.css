@@ -127,6 +127,14 @@
     0 -1px var(--white-color);;
 }
 
+@supports ((text-stroke: 1px #000) or (-webkit-text-stroke: 1px #000)) {
+  .label_img {
+    -webkit-text-stroke: 1px var(--black-color);
+    text-stroke: 1px var(--black-color); 
+    text-shadow: none;
+  }
+}
+
 .card-body {
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
