@@ -97,6 +97,8 @@
   position: relative;
   aspect-ratio: 1 / 1;
   border: 2px solid #000;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .img {
@@ -105,7 +107,6 @@
   aspect-ratio: 1 / 1;
   inline-size: 100%;
   block-size: 100%;
-  object-position: 97% 0%;
 }
 
 .label_img {
@@ -374,6 +375,36 @@
   animation-direction: alternate;
   animation-timing-function: ease-in;
   animation-duration: 0.3s;
+}
+
+/* фильтры */
+
+.filter__blur {
+  filter: blur(5px)
+}
+
+.filter__bright {
+  filter: brightness(150%);
+}
+
+.filter__contrast {
+  filter: contrast(200%);
+}
+
+.filter__grayscale {
+  filter: grayscale(50%)
+}
+
+.filter__saturate {
+  filter: saturate(300%);
+}
+
+.filter__invert {
+  filter: invert(100%); /* Негативное изображение */
+}
+
+.filter__sepia {
+  filter: sepia(80%);
 }
 
 @media(width > 375px) {
