@@ -127,11 +127,10 @@
     0 -1px var(--white-color);;
 }
 
-@supports ((text-stroke: 1px #000) or (-webkit-text-stroke: 1px #000)) {
+@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .label_img {
-    -webkit-text-stroke: 1px var(--black-color);
-    text-stroke: 1px var(--black-color); 
     text-shadow: none;
+    -webkit-text-stroke: 1px #fff;
   }
 }
 
@@ -413,6 +412,10 @@
 
 .filter__sepia {
   filter: sepia(80%);
+}
+
+.filter__combo {
+  filter: saturate(300%) brightness(150%); 
 }
 
 @media(width > 375px) {
